@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MovieWebApp.bundle.scp.css"
     },
     {
+      "Id": "D:\\csharp_project\\MovieApp\\MovieWebApp\\wwwroot\\css\\bootSwatchTeme.css",
+      "PackagePath": "staticwebassets\\css\\bootSwatchTeme.css"
+    },
+    {
       "Id": "D:\\csharp_project\\MovieApp\\MovieWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

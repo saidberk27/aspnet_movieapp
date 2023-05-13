@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "evr76jMWU1/97V9ElnwfiKJOycq9sclZvFkNnd/QMyw=",
+  "Hash": "uCoFH7jGV1vy2vqocsfN3fphexJ6aqNSIc/tsZKAkig=",
   "Source": "MovieWebApp",
   "BasePath": "_content/MovieWebApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\csharp_project\\MovieApp\\MovieWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MovieWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\csharp_project\\MovieApp\\MovieWebApp\\wwwroot\\css\\bootSwatchTeme.css",
+      "SourceId": "MovieWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\csharp_project\\MovieApp\\MovieWebApp\\wwwroot\\",
+      "BasePath": "_content/MovieWebApp",
+      "RelativePath": "css/bootSwatchTeme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootSwatchTeme.css"
     },
     {
       "Identity": "D:\\csharp_project\\MovieApp\\MovieWebApp\\wwwroot\\css\\site.css",
