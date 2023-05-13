@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using MovieWebApp.Data;
+
 namespace MovieWebApp
 {
     public class Program
@@ -8,7 +11,10 @@ namespace MovieWebApp
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(
+                builder.Configuration.GetConnectionString("DefaultConnection")
 
+                )); ;
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
