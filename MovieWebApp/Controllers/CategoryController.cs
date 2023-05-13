@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MovieWebApp.Data;
+using MovieWebApp.Models;
 
 namespace MovieWebApp.Controllers
 {
@@ -13,8 +14,8 @@ namespace MovieWebApp.Controllers
         }
         public IActionResult Index()
         {
-            var objCategoryList = _db.Categories.ToList();
-            return View();
+            IEnumerable<Category> objCategoryList = _db.Categories.ToList();
+            return View(objCategoryList);
         }
     }
 }
